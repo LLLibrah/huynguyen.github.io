@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <div class="header py-1 fixed-top" id="header">
+    <nav class="navbar navbar-expand navbar-light py-3">
+      <div class="container d-flex">
+        <nav class="navbar-brand">
+          <a href="index.html"><img src="src/Untitled-1-01.png" alt="logo"></a>
+        </nav>
+        <div id="top">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link fs-6 px-4 active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link fs-6 px-4" href="#aboutme">About me</a></li>
+            <li class="nav-item"><a class="nav-link fs-6 px-4" href="#myresume">My resume</a></li>
+            <li class="nav-item"><a class="nav-link fs-6 px-4" href="#works">Works</a></li>
+            <li class="nav-item"><a class="nav-link fs-6 px-4" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link fs-6 px-4" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link fs-6 px-4" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+  </div>
+  <!-- header -->
+
+
+  <!-- banner-mountain -->
+  <div class="section section-1 " id="home">
+    <div class="banner m-0 d-flex flex-column justify-content-center align-items-center overflow-hidden">
+      <h1 id="text_banner" class="text-white">HI I'M HUY NGUYEN</h1>
+      <P id="text_banner_1" class="text-white">UI/UX Designer</P>
+      <a id="btn_banner" class="btn text-uppercase px-4" href="#aboutme">explore</a>
+      <img class="trans" id="bg" src="src/bg-tuyet.jpg" alt="">
+      <img class="trans" id="mountain" src="src/nui-tuyet.png" alt="">
+      <img class="trans" id="may1" src="src/clouds_1.png" alt="">
+      <img class="trans" id="may2" src="src/clouds_2.png" alt="">
+      <div class="gradient"></div>
+
+    </div>
+  </div>
+  <!-- banner-mountain -->
+
+
+  <!-- about me -->
+  <div class="section section-2" id="aboutme">
+    <!-- <h1 class="text-uppercase text-center">about me</h1> -->
+    <div class="container">
+      <div class="d-flex">
+        <div class="col-6">
+          <div class="avatar" data-aos="fade-right" data-aos-duration="1000">
+            <div class="avatar-img overflow-hidden">
+              <img src="src/ava.png" alt="">
+            </div>
+            <div class="box-bg"></div>
+            <!-- <div class="box-bg-2"></div> -->
+            </img>
+
+          </div>
+        </div>
+        <div class="col-6 d-flex flex-column justify-content-center">
+          <h2 class="pb-2 text-uppercase d-block " data-aos="fade-left">about me</h2>
+          <p class="fs-5 pb-3 pt-5" data-aos="fade-left" data-aos-duration="800">I always define myself by the work I want to do. Skills can be taught, personality
+            is inherent. I prefer to keep learning, continue challenging myself, and do interesting things that matter.
+          </p>
+          <p class="fs-5 pb-3" data-aos="fade-left" data-aos-duration="1000">I have great experience and exceptional skills in the areas of Microsoft Instructor,
+            UI/UX Development, Power Point Design, animations and creating intuitive dynamic user experiences.</p>
+          <div class="pt-4">
+            <button type="button" class="btn btn-outline-dark trans px-5 py-3 fs-5" data-aos="fade-left" data-aos-duration="1200">DOWLOAD RESUME</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- about me -->
+
+
+  <!-- my resume -->
+  <div class="section container-fluid bg-dark p-header" id="myresume">
+    <div class="pt-2">
+      <div class="title">
+        <h1 class="text-uppercase text-center"><span class=" text-light bg-h1-d px-3">my resume</span></h1>
+        <div class="title-line-light"></div>
+      </div>
+    </div>
+    
+    <div class="container bg-dark myresume overflow-hidden position-relative">
+      <img class="img-resume" src="src/resume/resume/all-01.png" alt="">
+      <img data-aos="fade-left"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine" class="img-resume" src="src/resume/resume/3d-01.png" alt="">
+      <img data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine" class="img-resume" src="src/resume/resume/des-01.png" alt="">
+      <img data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine" class="img-resume" src="src/resume/resume/kysu-01.png" alt="">
+    </div>
+  </div>
+  <!-- my resume -->
+
+
+  <!-- works -->
+  <div class="section container-fluid p-header mb-4" id="works">
+    <div class="">
+      <div class="title">
+        <h1 class="text-uppercase text-center"><span class=" text-dark bg-h1-l px-3">works</span></h1>
+        <div class="title-line-dark"></div>
+      </div>
+    </div>
+    <!-- <h1 class="text-uppercase text-center m-0 text-dark title">works</h1> -->
+    <div class="swiper-container p-4">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide overflow-hidden">
+          <a class="" href=""><img src="src/works/aas (1).jpg" alt=""></a>
+        </div>
+        <div class="swiper-slide overflow-hidden">
+          <a class="" href=""><img src="src/works/aas (2).jpg" alt=""></a>
+        </div>
+        <div class="swiper-slide overflow-hidden">
+          <a class="" href=""><img src="src/works/aas (3).jpg" alt=""></a>
+        </div>
+        <div class="swiper-slide overflow-hidden">
+          <a class="" href=""><img src="src/works/aas (6).jpg" alt=""></a>
+        </div>
+        <div class="swiper-slide overflow-hidden">
+          <a class="" href=""><img src="src/works/aas (7).jpg" alt=""></a>
+        </div>
+        <div class="swiper-slide overflow-hidden">
+          <a class="" href=""><img src="src/works/aas (8).jpg" alt=""></a>
+        </div>
+        <div class="swiper-slide overflow-hidden">
+          <a class="" href=""><img src="src/works/aas (9).jpg" alt=""></a>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="see-all">
+      <button type="button" class="btn btn-outline-dark trans px-5 py-3 fs-5"><a class="text-decoration-none text-dark"
+          href="portfolio.html" target="_blank">SEE ALL</a></button>
+    </div>
+  </div>
+  <!-- works -->
+
+
+
+  <!-- skill -->
+  <div class="section section-3 p-header mt-2 bg-dark title" id="skills">
+    <div class="container">
+      <div class="py-4">
+        <div class="title">
+          <h1 class="text-uppercase text-center"><span class=" text-light bg-h1-d px-3">skills</span></h1>
+          <div class="title-line-light"></div>
+        </div>
+      </div>
+      <!-- <h1 class="text-uppercase text-center pb-5 text-light pt-2">skills</h1> -->
+      <div class="skill-item row">
+        <div data-aos="zoom-in-up" data-aos-duration="1000" class="col-4">
+          <div class="skill bg-dark">
+            <div class="skill-header bg-light">
+              <h2 class="text-center text-dark">Adobe</h2>
+            </div>
+            <div class="skill-content px-1 py-5 m-5 row">
+              <div class="col-10">
+                <div id="page1" class="page page-1">
+                  <div class="skill-load ">
+                    <h4>Photoshop</h4>
+                    <div class="load-ps"></div>
+                  </div>
+                  <div class="skill-load ">
+                    <h4>Illustrator</h4>
+                    <div class="load-ai"></div>
+                  </div>
+                  <div class="skill-load ">
+                    <h4>InDesgin</h4>
+                    <div class="load-id"></div>
+                  </div>
+                </div>
+                <div id="page2" class="page page-2">
+                  <div class="skill-load ">
+                    <h4>Premium</h4>
+                    <div class="load-pr"></div>
+                  </div>
+                  <div class="skill-load ">
+                    <h4>After Effect</h4>
+                    <div class="load-ae"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2" id="button-toggle" >
+                <button  onclick="show()" class="mybtn bg-dark" id="myBtn">
+                  <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+                  <lord-icon src="https://cdn.lordicon.com/iifryyua.json" trigger="loop" colors="primary:#ffffff"
+                    state="hover-3">
+                  </lord-icon>
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div data-aos="zoom-in-up" data-aos-duration="1000" class="col-4">
+          <div class="skill bg-dark">
+            <div class="skill-header bg-light">
+              <h2 class="text-center text-dark">Auto Desk</h2>
+            </div>
+            <div class="skill-content px-1 py-5 m-5">
+              <div class="skill-load ">
+                <h4>3ds max</h4>
+                <div class="load-3d"></div>
+              </div>
+              <div class="skill-load ">
+                <h4>auto cad</h4>
+                <div class="load-cad"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in-up" data-aos-duration="1000" class="col-4">
+          <div class="skill bg-dark">
+            <div class="skill-header bg-light">
+              <h2 class="text-center text-dark">UI/UX</h2>
+            </div>
+            <div class="skill-content px-1 py-5 m-5">
+              <div class="skill-load ">
+                <h4>HTML</h4>
+                <div class="load-html"></div>
+              </div>
+              <div class="skill-load ">
+                <h4>CSS</h4>
+                <div class="load-css"></div>
+              </div>
+              <div class="skill-load ">
+                <h4>javascript</h4>
+                <div class="load-css"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- skill -->
+
+
+  <!-- banner-contact -->
+  <div class="section section-span" id="section-span">
+    <div class="container-fluid d-flex flex-column align-items-center justify-content-center" id="banner-section">
+    </div>
+    <div class="btn-span">
+      <h2 class="text-uppercase text-center text-light pb-3">Bring you the greatest thing in the shortest time</h2>
+      <button type="button" class="btn btn-outline-light trans text-light">
+        <a class="btn text-decoration-none text-light fs-4 text-uppercase " href="#contact">Contact me</a>
+      </button>
+    </div>
+    <div class="gradient-dark"></div>
+    <!-- <div class="gradient"></div> -->
+    <!-- <div class="gradient"></div> -->
+  </div>
+  <!-- banner-contact -->
+
+
+
+
+  <div class="section section-4 p-header pb-5" id="services">
+    <div class="container pt-2">
+      <div class="py-4">
+        <div class="title">
+          <h1 class="text-uppercase text-center"><span class=" text-dark bg-h1-l px-3">services</span></h1>
+          <div class="title-line-dark"></div>
+        </div>
+      </div>
+      <!-- <h1 class="text-uppercase pb-4 pt-5 text-dark title">Services</h1> -->
+      <div class="container">
+        <div class="services">
+          <div class="icon p-3">
+            <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+            <lord-icon src="https://cdn.lordicon.com/shcamptw.json" trigger="hover" colors="primary:#ffffff"
+              style="width:150px;height:150px">
+            </lord-icon>
+          </div>
+          <div class="content p-4 text-dark">
+            <h4 class="text-center">Brand Identity</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni totam dignissimos voluptatem</p>
+          </div>
+        </div>
+        <div class="services">
+          <div class="icon p-3">
+            <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+            <lord-icon src="https://cdn.lordicon.com/axyzxviq.json" trigger="hover" colors="primary:#ffffff"
+              state="hover-1" style="width:150px;height:150px">
+            </lord-icon>
+          </div>
+          <div class="content p-4 text-dark">
+            <h4 class="text-center">Video Grapher</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni totam dignissimos voluptatem</p>
+          </div>
+        </div>
+        <div class="services">
+          <div class="icon p-3">
+            <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+            <lord-icon src="https://cdn.lordicon.com/etllbcfy.json" trigger="hover" colors="primary:#ffffff"
+              style="width:150px;height:150px">
+            </lord-icon>
+          </div>
+          <div class="content p-4 text-dark">
+            <h4 class="text-center">UI/UX Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni totam dignissimos voluptatem</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- contact -->
+  <div class="section section-5 p-header" id="contact">
+    <div class="gradient-light-top"></div>
+    <section class="container-fluid pt-5">
+      <div class="container">
+        <div class="contact-info text-white">
+          <div>
+            <h2 class="pb-4">Contact Info</h2>
+            <ul class="info fs-5">
+              <i class="pe-3 py-2 fa fa-map-marker fw-bolder" aria-hidden="true"></i>
+              <span>Address:</span>
+              <p>212-214 Nguyen Dinh Chieu, District 3</p>
+            </ul>
+            <ul class="info fs-5">
+              <i class="pe-3 py-2 fa fa-envelope-o fw-bolder" aria-hidden="true"></i>
+              <span>Gmail:</span>
+              <p>Rinnguyen23092000@gmail.com</p>
+            </ul>
+            <ul class="info fs-5">
+              <i class="pe-2 py-2 fa fa-phone fw-bolder" aria-hidden="true"></i>
+              <span>Phone</span>
+              <p>0933149921</p>
+            </ul>
+            <div class="social-icon row align-content-between pt-4 ">
+              <a class="text-white" href=""><i class="fs-2 px-2 fa fa-facebook" aria-hidden="true"></i></a>
+              <a class="text-white" href=""><i class="fs-2 px-2 fa fa-instagram" aria-hidden="true"></i></a>
+              <a class="text-white" href=""><i class="fs-2 px-2 fa fa-behance" aria-hidden="true"></i></a>
+              <a class="text-white" href=""><i class="fs-2 px-2 fa fa-pinterest-p" aria-hidden="true"></i></a>
+            </div>
+            
+          </div>
+
+        </div>
+        <div class="contact-form">
+          <h2 class="pt-4">Send a message</h2>
+          <div class="form-box row justify-content-between">
+            <div class="input-box col-6">
+              <input type="text" name="" required>
+              <span>Firt Name</span>
+            </div>
+            <div class="input-box col-6">
+              <input type="text" name="" required>
+              <span>Last Name</span>
+            </div>
+            <div class="input-box col-6">
+              <input type="text" name="" required>
+              <span>Email Address</span>
+            </div>
+            <div class="input-box col-6">
+              <input type="text" name="" required>
+              <span>Mobile Number</span>
+            </div>
+            <div class="input-box col-12">
+              <textarea name="" required></textarea>
+              <span>Wrtie your message</span>
+            </div>
+            <div class="input-box">
+              <button class="btn btn-outline-dark trans px-5 py-2 fs-4" type="submit">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- contact -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- java -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="java/bootstrap.bundle.js"></script>
+  <script src="java/java.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+  <script>
+    gsap.to("#mountain", {
+      scrollTrigger: {
+        scrub: 1
+      },
+      scale: 7
+    })
+
+    gsap.to("#may1", {
+      scrollTrigger: {
+        scrub: 1
+      },
+      scale: 3
+    })
+
+    gsap.to("#may2", {
+      scrollTrigger: {
+        scrub: 1
+      },
+      scale: 3
+    })
+
+    gsap.to("#text_banner", {
+      scrollTrigger: {
+        scrub: 1
+      },
+      y: 500,
+    })
+
+    gsap.to("#text_banner_1", {
+      scrollTrigger: {
+        scrub: 1
+      },
+      y: 500,
+    })
+
+    gsap.to("#btn_banner", {
+      scrollTrigger: {
+        scrub: 1
+      },
+      y: 500,
+    })
+  </script>
+  <script src="java/js.js"></script>
+  <script>
+    var swiper = new Swiper(".swiper-container", {
+      effect: 'coverflow',
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      grabCursor: true,
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        scale: 0.9,
+        modifier: 2,
+        slideShaows: true,
+      },
+      loop: true,
+      //   pagination: {
+      //     el: ".swiper-pagination",
+      //     clickable: true,
+      //   },
+    });
+  </script>
+  
+  <!-- java -->
+</body>
+
+</html>
