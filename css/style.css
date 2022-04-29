@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    scroll-behavior: smooth !important;
+}
 .active{
     background-color: #567587;
     color: white !important;
